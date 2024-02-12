@@ -1,3 +1,9 @@
+import Calculator from '@/components/Calculator';
+
 export default function Home() {
-  return <main>Pizza Pal</main>;
+  return (
+    <main className="p-4">
+      <Calculator />
+    </main>
+  );
 }
