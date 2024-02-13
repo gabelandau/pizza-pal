@@ -24,8 +24,8 @@ export default function Calculator() {
     }
 
     const finalMass = parseFloat(finalMassRef.current.value);
-    const doughCount = parseFloat(doughCountRef.current?.value);
-    const finalHydration = parseFloat(finalHydrationRef.current?.value) / 100;
+    const doughCount = parseFloat(doughCountRef.current.value);
+    const finalHydration = parseFloat(finalHydrationRef.current.value) / 100;
 
     const starterAmount = (finalMass / 10) * doughCount;
     const starterStandard = starterAmount / 2;
